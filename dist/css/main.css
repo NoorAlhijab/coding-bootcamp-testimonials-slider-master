@@ -15,7 +15,6 @@ body {
   height: 100vh;
   width: 100%;
   background: url(../images/pattern-curve.svg) no-repeat left bottom/auto;
-  position: relative;
 }
 
 .slider-container {
@@ -92,12 +91,14 @@ body {
   border-radius: 5px;
 }
 
+.wrap {
+  position: relative;
+}
+
 .buttons {
   position: absolute;
   left: 50%;
-  top: 450px;
-  -webkit-transform: translate(20%, -10%);
-          transform: translate(20%, -10%);
+  bottom: 10%;
   padding: 18px 35px;
   background-color: #fff;
   border-radius: 50px;
@@ -150,7 +151,7 @@ body {
   }
   .slide-text p {
     font-size: 1.1rem;
-    font-weight: 300;
+    font-weight: 400;
   }
   .slide-text h3 {
     font-size: 14px;
@@ -166,7 +167,7 @@ body {
     max-width: 220px;
   }
   .buttons {
-    top: 240px;
+    bottom: 48%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
