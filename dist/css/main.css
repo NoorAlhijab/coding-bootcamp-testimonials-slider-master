@@ -95,9 +95,9 @@ body {
 .buttons {
   position: absolute;
   left: 50%;
-  top: 460px;
-  -webkit-transform: translate(0);
-          transform: translate(0);
+  top: 450px;
+  -webkit-transform: translate(20%, -10%);
+          transform: translate(20%, -10%);
   padding: 18px 35px;
   background-color: #fff;
   border-radius: 50px;
